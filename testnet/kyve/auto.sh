@@ -72,7 +72,7 @@ $KYVE config node tcp://localhost:${KYVE_PORT}657
 $KYVE init $KYVE_NODENAME --chain-id $KYVE_ID
 
 # Set peers and seeds
-PEERS="664e06d2d6110c5ba93f8ecfee66f150bad981bf@kyve-testnet-peer.itrocket.net:443"
+PEERS="664e06d2d6110c5ba93f8ecfee66f150bad981bf@kyve-testnet-peer.itrocket.net:443,940a3d4a6b73961ffedffb730078d7fa493862a2@206.81.3.199:28656"
 SEEDS="de7865a2a4936fd4bb00861ed887f219d8dd73d7@kyve-testnet-seed.itrocket.net:443"
 sed -i -e "s|^persistent_peers *=.*|persistent_peers = \"$PEERS\"|" $HOME/$KYVE_FOLDER/config/config.toml
 sed -i -e "s|^seeds *=.*|seeds = \"$SEEDS\"|" $HOME/$KYVE_FOLDER/config/config.toml
