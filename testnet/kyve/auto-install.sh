@@ -14,7 +14,7 @@ KYVE_REPO=https://github.com/KYVENetwork/chain
 KYVE_GENESIS=https://snap.enodex.lol/addrbook/test-kyve/genesis.json
 KYVE_ADDRBOOK=https://snap.enodex.lol/addrbook/test-kyve/addrbook.json
 KYVE_DENOM=tkyve
-KYVE_PORT=10
+KYVE_PORT=11
 
 echo "export KYVE_WALLET=${KYVE_WALLET}" >> $HOME/.bash_profile
 echo "export KYVE=${KYVE}" >> $HOME/.bash_profile
@@ -29,7 +29,7 @@ echo "export KYVE_PORT=${KYVE_PORT}" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
 # Set Vars
-if [ ! $ORDOS_NODENAME ]; then
+if [ ! $KYVE_NODENAME ]; then
         read -p "[ENTER YOUR NODE] > " KYVE_NODENAME
         echo 'export ORDOS_NODENAME='$KYVE_NODENAME >> $HOME/.bash_profile
 fi
@@ -59,9 +59,9 @@ go version
 # Get testnet version of alliance (terra)
 cd $HOME
 rm -rf chain
-git clone $ORDOS_REPO
-cd alliance
-git checkout $ORDOS_VER
+git clone $KYVE_REPO
+cd chain
+git checkout $KYVE_VER
 make build ACC_PREFIX=kyve
 sudo mv build/$KYVE /usr/local/bin/
 
