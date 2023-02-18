@@ -6,7 +6,7 @@ sleep 1
 
 # Variable
 KYVE_WALLET=wallet
-KYVE=ordosd
+KYVE=kyved
 KYVE_ID=kaon-1
 KYVE_FOLDER=.kyve
 KYVE_VER=v1.0.0-rc0
