@@ -1,13 +1,13 @@
 #
 
-echo "      Auto Installer For Ordos Chain     ";
+echo "      Auto Installer For KYVE Chain     ";
 echo -e "\e[0m"
 sleep 1
 
 # Variable
 KYVE_WALLET=wallet
 KYVE=ordosd
-KYVE_ID=ordos-1
+KYVE_ID=kaon-1
 KYVE_FOLDER=.kyve
 KYVE_VER=v1.0.0-rc0
 KYVE_REPO=https://github.com/KYVENetwork/chain
