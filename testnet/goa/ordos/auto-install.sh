@@ -8,7 +8,7 @@ sleep 1
 ORDOS_WALLET=wallet
 ORDOS=ordosd
 ORDOS_ID=ordos-1
-ORDOS_FOLDER=.ordosd
+ORDOS_FOLDER=.ordos
 ORDOS_VER=v0.0.1-goa
 ORDOS_REPO=https://github.com/terra-money/alliance
 ORDOS_GENESIS=https://raw.githubusercontent.com/enodex/service/main/testnet/goa/ordos/genesis.json
