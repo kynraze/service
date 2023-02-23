@@ -1,39 +1,15 @@
 #
 echo -e "\033[0;31m"
-echo "                                                                     dddddddd                                      
-"
-echo "EEEEEEEEEEEEEEEEEEEEEE                                               d::::::d                                      
-"
-echo "E::::::::::::::::::::E                                               d::::::d                                      
-"
-echo "E::::::::::::::::::::E                                               d::::::d                                      
-"
-echo "EE::::::EEEEEEEEE::::E                                               d:::::d                                       
-"
-echo "  E:::::E       EEEEEEnnnn  nnnnnnnn       ooooooooooo       ddddddddd:::::d     eeeeeeeeeeee  xxxxxxx      xxxxxxx
-"
-echo "  E:::::E             n:::nn::::::::nn   oo:::::::::::oo   dd::::::::::::::d   ee::::::::::::ee x:::::x    x:::::x 
-"
-echo "  E::::::EEEEEEEEEE   n::::::::::::::nn o:::::::::::::::o d::::::::::::::::d  e::::::eeeee:::::eex:::::x  x:::::x  
-"
-echo "  E:::::::::::::::E   nn:::::::::::::::no:::::ooooo:::::od:::::::ddddd:::::d e::::::e     e:::::e x:::::xx:::::x   
-"
-echo "  E:::::::::::::::E     n:::::nnnn:::::no::::o     o::::od::::::d    d:::::d e:::::::eeeee::::::e  x::::::::::x    
-"
-echo "  E::::::EEEEEEEEEE     n::::n    n::::no::::o     o::::od:::::d     d:::::d e:::::::::::::::::e    x::::::::x     
-"
-echo "  E:::::E               n::::n    n::::no::::o     o::::od:::::d     d:::::d e::::::eeeeeeeeeee     x::::::::x     
-"
-echo "  E:::::E       EEEEEE  n::::n    n::::no::::o     o::::od:::::d     d:::::d e:::::::e             x::::::::::x    
-"
-echo "EE::::::EEEEEEEE:::::E  n::::n    n::::no:::::ooooo:::::od::::::ddddd::::::dde::::::::e           x:::::xx:::::x   
-"
-echo "E::::::::::::::::::::E  n::::n    n::::no:::::::::::::::o d:::::::::::::::::d e::::::::eeeeeeee  x:::::x  x:::::x  
-"
-echo "E::::::::::::::::::::E  n::::n    n::::n oo:::::::::::oo   d:::::::::ddd::::d  ee:::::::::::::e x:::::x    x:::::x 
-"
-echo "EEEEEEEEEEEEEEEEEEEEEE  nnnnnn    nnnnnn   ooooooooooo      ddddddddd   ddddd    eeeeeeeeeeeeeexxxxxxx      xxxxxxx
-"
+echo "@@@@@@@@  @@@  @@@   @@@@@@   @@@@@@@   @@@@@@@@  @@@  @@@"
+echo "@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@  @@@"
+echo "@@!       @@!@!@@@  @@!  @@@  @@!  @@@  @@!       @@!  !@@"
+echo "!@!       !@!!@!@!  !@!  @!@  !@!  @!@  !@!       !@!  @!!"
+echo "@!!!:!    @!@ !!@!  @!@  !@!  @!@  !@!  @!!!:!     !@@!@! "
+echo "!!!!!:    !@!  !!!  !@!  !!!  !@!  !!!  !!!!!:      @!!!  "
+echo "!!:       !!:  !!!  !!:  !!!  !!:  !!!  !!:        !: :!! "
+echo ":!:       :!:  !:!  :!:  !:!  :!:  !:!  :!:       :!:  !:!"
+echo " :: ::::   ::   ::  ::::: ::   :::: ::   :: ::::   ::  :::"
+echo ": :: ::   ::    :    : :  :   :: :  :   : :: ::    :   :: "
 echo "Auto Installer For Kyve Network";
 echo -e "\e[0m"
 sleep 1
