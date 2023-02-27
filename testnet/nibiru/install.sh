@@ -100,6 +100,11 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $
 # Set minimum gas price
 sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.025$NIB_DENOM\"/" $HOME/$NIB_FOLDER/config/app.toml
 
+sed -i 's|enable =.*|enable = true|g' $HOME/.nibid/config/config.toml
+sed -i 's|rpc_servers =.*|rpc_servers = "'$(curl -s https://networks.itn.nibiru.fi/$NIB_ID/rpc_servers)'"|g' $HOME/.nibid/config/config.toml
+sed -i 's|trust_height =.*|trust_height = "'$(curl -s https://networks.itn.nibiru.fi/$NIB_ID/trust_height)'"|g' $HOME/.nibid/config/config.toml
+sed -i 's|trust_hash =.*|trust_hash = "'$(curl -s https://networks.itn.nibiru.fi/$NIB_ID/trust_hash)'"|g' $HOME/.nibid/config/config.toml
+
 
 # Create Service
 sudo tee /etc/systemd/system/$NIB.service > /dev/null <<EOF
