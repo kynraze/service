@@ -81,7 +81,7 @@ sed -i 's|seeds =.*|seeds = "'$(curl -s https://networks.itn.nibiru.fi/$NIB_ID/s
 
 # Download genesis and addrbook
 curl -Ls $NIB_GENESIS > $HOME/$NIB_FOLDER/config/genesis.json
-curl -Ls $NIB_ADDRBOOK > $HOME/$NIB_FOLDER/config/addrbook.json
+
 
 # Set Port
 sed -i.bak -e "s%^proxy_app = \"tcp://127.0.0.1:26658\"%proxy_app = \"tcp://127.0.0.1:${NIB_PORT}658\"%; s%^laddr = \"tcp://127.0.0.1:26657\"%laddr = \"tcp://127.0.0.1:${NIB_PORT}657\"%; s%^pprof_laddr = \"localhost:6060\"%pprof_laddr = \"localhost:${NIB_PORT}060\"%; s%^laddr = \"tcp://0.0.0.0:26656\"%laddr = \"tcp://0.0.0.0:${NIB_PORT}656\"%; s%^prometheus_listen_addr = \":26660\"%prometheus_listen_addr = \":${NIB_PORT}660\"%" $HOME/$NIB_FOLDER/config/config.toml
