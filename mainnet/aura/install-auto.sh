@@ -71,7 +71,7 @@ go version
 cd $HOME
 rm -rf aura
 git clone $AURA_REPO
-cd 
+cd aura
 git checkout $AURA_VER
 make install
 
