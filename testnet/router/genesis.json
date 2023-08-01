@@ -1,0 +1,581 @@
+{
+    "genesis_time": "2023-05-14T12:13:25.982791Z",
+    "chain_id": "router_9601-1",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {}
+    },
+    "app_hash": "",
+    "app_state": {
+        "attestation": {
+            "params": {},
+            "valsetList": [],
+            "attestationList": [],
+            "valsetConfirmationList": [],
+            "valsetUpdatedClaimList": []
+        },
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "router1lcenjwdvzkc0pcpyhdjwmven70serk3rtq0a77",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "router1nd6y2506jyws6cpcrc30zvcjgy6tvcft9z78m7",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "router15yye4e0fkgucyptljx4rpn8uqh9ws9znjvuxpz",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                }
+            ]
+        },
+        "authz": {
+            "authorization": []
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": true
+            },
+            "balances": [
+                {
+                    "address": "router1nd6y2506jyws6cpcrc30zvcjgy6tvcft9z78m7",
+                    "coins": [
+                        {
+                            "denom": "route",
+                            "amount": "2500000000000000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "router15yye4e0fkgucyptljx4rpn8uqh9ws9znjvuxpz",
+                    "coins": [
+                        {
+                            "denom": "route",
+                            "amount": "2500000000000000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "router1lcenjwdvzkc0pcpyhdjwmven70serk3rtq0a77",
+                    "coins": [
+                        {
+                            "denom": "route",
+                            "amount": "2500000000000000000000000"
+                        }
+                    ]
+                }
+            ],
+            "supply": [
+                {
+                    "denom": "route",
+                    "amount": "7500000000000000000000000"
+                }
+            ],
+            "denom_metadata": []
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "crisis": {
+            "constant_fee": {
+                "denom": "route",
+                "amount": "1000000000000000000000"
+            }
+        },
+        "crosschain": {
+            "params": {
+                "inboundGasPrice": "0"
+            },
+            "crosschainRequestList": [],
+            "crosschainRequestConfirmList": [],
+            "crosschainAckRequestList": [],
+            "crosschainAckRequestConfirmList": [],
+            "crosschainAckReceiptList": []
+        },
+        "distribution": {
+            "params": {
+                "community_tax": "0.020000000000000000",
+                "base_proposer_reward": "0.010000000000000000",
+                "bonus_proposer_reward": "0.040000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "fee_pool": {
+                "community_pool": []
+            },
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "evm": {
+            "accounts": [],
+            "params": {
+                "evm_denom": "route",
+                "enable_create": true,
+                "enable_call": true,
+                "extra_eips": [],
+                "chain_config": {
+                    "homestead_block": "0",
+                    "dao_fork_block": "0",
+                    "dao_fork_support": true,
+                    "eip150_block": "0",
+                    "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "eip155_block": "0",
+                    "eip158_block": "0",
+                    "byzantium_block": "0",
+                    "constantinople_block": "0",
+                    "petersburg_block": "0",
+                    "istanbul_block": "0",
+                    "muir_glacier_block": "0",
+                    "berlin_block": "0",
+                    "london_block": "0",
+                    "arrow_glacier_block": "0",
+                    "gray_glacier_block": "0",
+                    "merge_netsplit_block": "0",
+                    "shanghai_block": "0",
+                    "cancun_block": "0"
+                },
+                "allow_unprotected_txs": false
+            }
+        },
+        "feegrant": {
+            "allowances": []
+        },
+        "feeibc": {
+            "identified_fees": [],
+            "fee_enabled_channels": [],
+            "registered_payees": [],
+            "registered_counterparty_payees": [],
+            "forward_relayers": []
+        },
+        "feemarket": {
+            "params": {
+                "no_base_fee": false,
+                "base_fee_change_denominator": 8,
+                "elasticity_multiplier": 2,
+                "enable_height": "0",
+                "base_fee": "1000000000",
+                "min_gas_price": "0.000000000000000000",
+                "min_gas_multiplier": "0.500000000000000000"
+            },
+            "block_gas": "0"
+        },
+        "genutil": {
+            "gen_txs": [
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node0",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "1.000000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "1.000000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "router1lcenjwdvzkc0pcpyhdjwmven70serk3rtq0a77",
+                                "validator_address": "routervaloper1lcenjwdvzkc0pcpyhdjwmven70serk3r8u075s",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "1VoawrGy1h72FjdB/7JF3fkhEOOI6ouvOvZ3IxKXKyI="
+                                },
+                                "value": {
+                                    "denom": "route",
+                                    "amount": "2400000000000000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "569bd6846e80fae1d5b381e0a3a0725290d22884@43.204.133.101:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                                    "key": "AyxzRdJ+IIkk/++crDHgW6dejcmuI2CplXoLbOaGRSFp"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "0",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "EAQzyvz4/NGD/QCAWNRxFen9iHeOdScutKGaaUeDeJdB7G+a/wFhTX4lW8wxZe79Fx/WJr6ZHAH+WehChYg6YQA="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node1",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "1.000000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "1.000000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "router1nd6y2506jyws6cpcrc30zvcjgy6tvcft9z78m7",
+                                "validator_address": "routervaloper1nd6y2506jyws6cpcrc30zvcjgy6tvcftf77y3s",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "IGUN4WmEQtbWYt7N5nyqImLTP/RCpHW0CzJXf1cxlH8="
+                                },
+                                "value": {
+                                    "denom": "route",
+                                    "amount": "2400000000000000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "2aa37da908789ecc7040102d2f31ddc3e143c782@13.233.136.29:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                                    "key": "AxbqZrtLPysFwAxbddZk34kpT+VU/XffilbPsw2OckSk"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "0",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "oZnNYTipiZvCtVlwYwrWWdBrMYoyTcF+opy17BiYmYgRecuAS51rgRco3cHsV3IXij4cqVk00rvifIR5IlA/VwA="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node2",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "1.000000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "1.000000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "router15yye4e0fkgucyptljx4rpn8uqh9ws9znjvuxpz",
+                                "validator_address": "routervaloper15yye4e0fkgucyptljx4rpn8uqh9ws9zn7su9tv",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Az9eTofAuhgtOnJg3fDjw6iSi9VVS2yIARxSf9BWNQA="
+                                },
+                                "value": {
+                                    "denom": "route",
+                                    "amount": "2400000000000000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "645f023b1f1fe36210d7c24ad0c0682f55f51416@65.2.161.80:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+                                    "key": "A+4hXOqTmSinlov+8ffq0LU5HvARHy+6FzRMrm9gwZgp"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "0",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "vNVrBGaDBgdsPEOZB7w/RMrCel9l92hlqDkzUu2ArxhH9ik5ZDSpQnZHnhWkwq4LjjHrd4F36N+UzJPT7aOW6AE="
+                    ]
+                }
+            ]
+        },
+        "gov": {
+            "starting_proposal_id": "1",
+            "deposits": [],
+            "votes": [],
+            "proposals": [],
+            "deposit_params": {
+                "min_deposit": [
+                    {
+                        "denom": "route",
+                        "amount": "500000000000000000000"
+                    }
+                ],
+                "max_deposit_period": "172800s"
+            },
+            "voting_params": {
+                "voting_period": "30s"
+            },
+            "tally_params": {
+                "quorum": "0.334000000000000000",
+                "threshold": "0.500000000000000000",
+                "veto_threshold": "0.334000000000000000"
+            }
+        },
+        "ibc": {
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint"
+                    ]
+                },
+                "create_localhost": false,
+                "next_client_sequence": "0"
+            },
+            "connection_genesis": {
+                "connections": [],
+                "client_connection_paths": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "30000000000"
+                }
+            },
+            "channel_genesis": {
+                "channels": [],
+                "acknowledgements": [],
+                "commitments": [],
+                "receipts": [],
+                "send_sequences": [],
+                "recv_sequences": [],
+                "ack_sequences": [],
+                "next_channel_sequence": "0"
+            }
+        },
+        "interchainaccounts": {
+            "controller_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "ports": [],
+                "params": {
+                    "controller_enabled": true
+                }
+            },
+            "host_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "port": "icahost",
+                "params": {
+                    "host_enabled": true,
+                    "allow_messages": [
+                        "*"
+                    ]
+                }
+            }
+        },
+        "intertx": null,
+        "metastore": {
+            "params": {},
+            "metaInfoList": [],
+            "metadataRequestList": []
+        },
+        "mint": {
+            "minter": {
+                "inflation": "0.050000000000000000",
+                "annual_provisions": "0.000000000000000000"
+            },
+            "params": {
+                "mint_denom": "route",
+                "inflation_rate_change": "0.050000000000000000",
+                "inflation_max": "0.100000000000000000",
+                "inflation_min": "0.040000000000000000",
+                "goal_bonded": "0.670000000000000000",
+                "blocks_per_year": "15778800"
+            }
+        },
+        "multichain": {
+            "params": {
+                "routerTokenPrice": {
+                    "denom": "",
+                    "amount": "0"
+                }
+            },
+            "chainConfigList": []
+        },
+        "oracle": {
+            "params": {
+                "band_ibc_enabled": false,
+                "ibc_request_interval": "0",
+                "ibc_source_channel": "",
+                "ibc_version": "",
+                "ibc_port_id": ""
+            },
+            "port_id": "oracle",
+            "bandTokenPriceStateList": [],
+            "callDataRecordList": [],
+            "bandOracleRequestList": [],
+            "gasPriceStateList": [],
+            "tokenPriceList": []
+        },
+        "params": null,
+        "rwasm": {
+            "params": {}
+        },
+        "slashing": {
+            "params": {
+                "signed_blocks_window": "100",
+                "min_signed_per_window": "0.500000000000000000",
+                "downtime_jail_duration": "600s",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.010000000000000000"
+            },
+            "signing_infos": [],
+            "missed_blocks": []
+        },
+        "staking": {
+            "params": {
+                "unbonding_time": "1814400s",
+                "max_validators": 20,
+                "max_entries": 7,
+                "historical_entries": 10000,
+                "bond_denom": "route",
+                "min_commission_rate": "0.000000000000000000"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "validators": [],
+            "delegations": [],
+            "unbonding_delegations": [],
+            "redelegations": [],
+            "exported": false
+        },
+        "transfer": {
+            "port_id": "transfer",
+            "denom_traces": [],
+            "params": {
+                "send_enabled": true,
+                "receive_enabled": true
+            }
+        },
+        "upgrade": {},
+        "vesting": {},
+        "wasm": {
+            "params": {
+                "code_upload_access": {
+                    "permission": "Everybody",
+                    "address": "",
+                    "addresses": []
+                },
+                "instantiate_default_permission": "Everybody"
+            },
+            "codes": [],
+            "contracts": [],
+            "sequences": [],
+            "gen_msgs": []
+        }
+    }
+}
