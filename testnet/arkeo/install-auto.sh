@@ -53,7 +53,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install make build-essential gcc git jq chrony lz4 -y
 
 # Install GO
-ver="1.201.20"
+ver="1.20"
 arch=$(uname -m)
 if [ "$arch" = "x86_64" ]; then
   go_pkg="go$ver.linux-amd64.tar.gz"
