@@ -24,7 +24,7 @@ ARKEO_REPO=https://snap.kynraze.com/test/arkeo/arkeod
 ARKEO_GENESIS=https://raw.githubusercontent.com/kynraze/service/main/testnet/arkeo/genesis.json
 ARKEO_ADDRBOOK=https://snap.kynraze.com/test/arkeo/addrbook.json
 ARKEO_DENOM=uarkeo
-ARKEO_PORT=29
+ARKEO_PORT=
 ARKEO_EXPONENT=6
 
 # Set Vars
