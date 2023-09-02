@@ -1,3 +1,4 @@
+#!/bin/bash
 # Variable
 PLANQ_WALLET=wallet
 PLANQ=planqd
