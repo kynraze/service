@@ -17,7 +17,7 @@ submenu_selected=0
 show_main_menu() {
     while true; do
         clear
-        echo "Main Menu 222ss22"
+        echo "Main Menu EEEE"
         echo "---------"
         for ((i = 0; i < ${#menu_items[@]}; i++)); do
             if [ $i -eq $selected ]; then
