@@ -31,14 +31,24 @@
     },
     "tokens": [
         {
-            "name": "Aave interest bearing USDC",
-            "decimals": 6,
-            "symbol": "aUSDC",
-            "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
-            "chainId": 1,
+            "name": "Pokemon",
+            "decimals": 18,
+            "symbol": "PKMN",
+            "address": "0x757352f40c161cF69F20963d184d7265E0405fEf",
+            "chainId": 214,
             "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
             "tags": [
-                "atokenv2",
+                "stablecoin"
+            ]
+        },
+        {
+            "name": "Wrapped KYN",
+            "decimals": 18,
+            "symbol": "WKYN",
+            "address": "0x3Aec630abf594E8d833ED34AA617A95200f93eBB",
+            "chainId": 214,
+            "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
+            "tags": [
                 "stablecoin"
             ]
         }
