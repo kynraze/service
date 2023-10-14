@@ -12,9 +12,9 @@
             "name": "Stablecoin",
             "description": "Tokens that are fixed to an external asset"
         },
-        "atokenv1": {
-            "name": "aToken V1",
-            "description": "Tokens that earn interest on the Aave Protocol V1"
+        "kyntokens": {
+            "name": "Kyn Tokens V1",
+            "description": "Tokens that earn interest on the Kyn Protocol V1"
         },
         "atokenv2": {
             "name": "aToken V2",
@@ -38,7 +38,7 @@
             "chainId": 214,
             "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
             "tags": [
-                "stablecoin"
+                "kyntokens"
             ]
         },
         {
@@ -47,10 +47,7 @@
             "symbol": "WKYN",
             "address": "0x3Aec630abf594E8d833ED34AA617A95200f93eBB",
             "chainId": 214,
-            "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
-            "tags": [
-                "stablecoin"
-            ]
+            "logoURI": "ipfs://QmeZKWC6M56sJSZGUcSW59vY99HNVj9C6NJcu5mqPp4MPH/kynraze.png",
         }
     ],
     "timestamp": "2020-12-11T17:08:18.941Z",
