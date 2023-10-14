@@ -1,32 +1,52 @@
 {
-  "name": "Compound",
-  "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/compound-interface.svg",
-  "keywords": [
-    "compound",
-    "defi"
-  ],
-  "timestamp": "2021-05-27T20:37:00.000+00:00",
-  "tokens": [
-    {
-      "chainId": 214,
-      "address": "0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd",
-      "name": "Dymension",
-      "symbol": "DYM",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+    "name": "KYN token List",
+    "logoURI": "ipfs://QmWzL3TSmkMhbqGBEwyeFyWVvLmEo3F44HBMFnmTUiTfp1",
+    "keywords": [
+        "audited",
+        "verified",
+        "lending",
+        "aave"
+    ],
+    "tags": {
+        "stablecoin": {
+            "name": "Stablecoin",
+            "description": "Tokens that are fixed to an external asset"
+        },
+        "atokenv1": {
+            "name": "aToken V1",
+            "description": "Tokens that earn interest on the Aave Protocol V1"
+        },
+        "atokenv2": {
+            "name": "aToken V2",
+            "description": "Tokens that earn interest on the Aave Protocol V2"
+        },
+        "stktoken": {
+            "name": "Staked Token",
+            "description": "Tokens that earn interest as they are staked in the Aave Safety Module"
+        },
+        "unilpv1": {
+            "name": "Uniswap v1 LP token",
+            "description": "Tokens that represents an LPs stake in a Uniswap pool"
+        }
     },
-    {
-      "chainId": 214,
-      "address": "0x757352f40c161cF69F20963d184d7265E0405fEf",
-      "name": "Pokemon",
-      "symbol": "PKMN",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/ctoken_usdc.svg"
-    },
-  ],
-  "version": {
-    "major": 2,
-    "minor": 0,
-    "patch": 0
-  }
+    "tokens": [
+        {
+            "name": "Aave interest bearing USDC",
+            "decimals": 6,
+            "symbol": "aUSDC",
+            "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
+            "chainId": 1,
+            "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
+            "tags": [
+                "atokenv2",
+                "stablecoin"
+            ]
+        }
+    ],
+    "timestamp": "2020-12-11T17:08:18.941Z",
+    "version": {
+        "major": 1,
+        "minor": 3,
+        "patch": 0
+    }
 }
