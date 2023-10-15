@@ -5,7 +5,7 @@
         "audited",
         "verified",
         "lending",
-        "aave"
+        "kyn"
     ],
     "tags": {
         "stablecoin": {
@@ -36,7 +36,7 @@
             "symbol": "PKMN",
             "address": "0x757352f40c161cF69F20963d184d7265E0405fEf",
             "chainId": 214,
-            "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg",
+            "logoURI": "ipfs://QmWW4DWjLKbnGsTEszT1wD1J3UnL56kHnWbQFGaLbXys56/PKMN.png",
             "tags": [
                 "kyntokens"
             ]
@@ -47,7 +47,7 @@
             "symbol": "WKYN",
             "address": "0x3Aec630abf594E8d833ED34AA617A95200f93eBB",
             "chainId": 214,
-            "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg"
+            "logoURI": "ipfs://QmeZKWC6M56sJSZGUcSW59vY99HNVj9C6NJcu5mqPp4MPH/kynraze.png"
         }
     ],
     "timestamp": "2023-10-14T17:08:18.941Z",
