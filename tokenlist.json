@@ -1,6 +1,6 @@
 {
     "name": "KYN token List",
-    "logoURI": "ipfs://QmWzL3TSmkMhbqGBEwyeFyWVvLmEo3F44HBMFnmTUiTfp1",
+    "logoURI": "ipfs://QmeZKWC6M56sJSZGUcSW59vY99HNVj9C6NJcu5mqPp4MPH/kynraze.png",
     "keywords": [
         "audited",
         "verified",
@@ -50,7 +50,7 @@
             "logoURI": "ipfs://QmaznB5PRhMC696u8yZuzN6Uwrnp7Zmfa5CydVUMvLJc9i/aUSDC.svg"
         }
     ],
-    "timestamp": "2020-12-11T17:08:18.941Z",
+    "timestamp": "2023-10-14T17:08:18.941Z",
     "version": {
         "major": 1,
         "minor": 3,
