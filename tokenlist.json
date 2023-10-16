@@ -16,17 +16,13 @@
             "name": "Kyn Tokens V1",
             "description": "Tokens that earn interest on the Kyn Protocol V1"
         },
-        "atokenv2": {
-            "name": "aToken V2",
-            "description": "Tokens that earn interest on the Aave Protocol V2"
+        "rollapp": {
+            "name": "Rollapp Tokens",
+            "description": "Tokens from other rollapps"
         },
         "stktoken": {
             "name": "Staked Token",
             "description": "Tokens that earn interest as they are staked in the Aave Safety Module"
-        },
-        "unilpv1": {
-            "name": "Uniswap v1 LP token",
-            "description": "Tokens that represents an LPs stake in a Uniswap pool"
         }
     },
     "tokens": [
@@ -48,6 +44,14 @@
             "address": "0x3Aec630abf594E8d833ED34AA617A95200f93eBB",
             "chainId": 214,
             "logoURI": "ipfs://QmeZKWC6M56sJSZGUcSW59vY99HNVj9C6NJcu5mqPp4MPH/kynraze.png"
+        },
+        {
+            "name": "SBB Modular",
+            "decimals": 18,
+            "symbol": "MOD",
+            "address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+            "chainId": 214,
+            "logoURI": "https://raw.githubusercontent.com/dymensionxyz/rollapp-registry/main/myrollapp_160-1/logos/myrollapp_160-1.png"
         }
     ],
     "timestamp": "2023-10-14T17:08:18.941Z",
