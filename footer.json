@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Developers",
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/kynraze"
+      }
+    ]
+  },
+  {
+    "title": "Community",
+    "links": [
+      {
+        "text": "Twitter",
+        "url": "https://twitter.com/kynraze"
+      },
+      {
+        "text": "Discord",
+        "url": "https://discord.com/users/613329835254743040"
+      },
+      {
+        "text": "Dex",
+        "url": "https://app.kynraze.com/"
+      }
+    ]
+  },
+  {
+    "title": "About Base",
+    "links": [
+      {
+        "text": "About",
+        "url": "https://kynraze.com"
+      }
+    ]
+  }
+]
